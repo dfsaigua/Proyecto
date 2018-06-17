@@ -1,0 +1,16 @@
+#logo {
+	width: 145px;
+	height: 100%;
+}
+
+a.navbar-brand {
+	padding: 0px;
+}
+
+nav.navbar-inverse {
+	background-color: #686C78;
+}
+
+div#myNavbar > ul > li a {
+	font-size: 1.35em;
+}
