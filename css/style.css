@@ -9,8 +9,35 @@ a.navbar-brand {
 
 nav.navbar-inverse {
 	background-color: #686C78;
+	margin-bottom: 5px;
+}
+
+.navbar-brand {
+	height: 60px;
 }
 
 div#myNavbar > ul > li a {
 	font-size: 1.35em;
+	color: white;
+	height: 60px;
+	line-height: 28px;
+}
+
+div#myNavbar > ul > li a:hover {
+	color: #B30000;
+}
+
+.imgcar {
+	width: 300px;
+	height: 176px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#cuerpo {
+	padding: 0px;
+}
+
+#id {
+	background-color: #D6D8D3;
 }
