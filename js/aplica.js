@@ -6,10 +6,12 @@ $(document).ready(function()
 	    contentType: "text/xml",
 	    success: function(xml){
 
-	    	$(xml).find('eventos').each(function(){
-	          var sAutor = $(this).find('autor').text();
+	    	$(xml).find('evento').each(function(){
+	          var sTitulo = $(this).find('titulo').text();
 	          var sTexto = $(this).find('texto').text();
-	          $("<div></div>").attr('class','well').attr('autor',sAutor).html(sTexto).appendTo("#quotes");
+	          $("<h3></h3>").html(sTitulo).appendTo("#inf-event");
+	          $("<p></p>").html(sTexto).appendTo("#inf-event");
+
 	        })
 	    }
 	  })

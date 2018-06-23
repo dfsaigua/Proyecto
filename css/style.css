@@ -1,3 +1,8 @@
+@font-face {
+	font-family: fontawesome;
+	src: url(../fonts/FontAwesome);
+}
+
 #logo {
 	width: 145px;
 	height: 100%;
@@ -68,4 +73,22 @@ div.carousel-caption * {
 .carousel-caption {
 	top: 112px;
 	bottom: 0px;
+}
+
+#cuerpo > .row > div.inf {
+	padding: 0px 18px 0px 18px;
+}
+
+#inf-event {
+	height: 248px;
+	overflow: auto;
+	border: black solid;
+}
+
+.contcar {
+	padding-right: 0px;
+}
+
+#inf-event > * {
+	font-family: fontawesome;
 }
