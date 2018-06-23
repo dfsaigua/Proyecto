@@ -15,6 +15,7 @@ a.navbar-brand {
 nav.navbar-inverse {
 	background-color: #686C78;
 	margin-bottom: 5px;
+	breakpoint: 1000px;
 }
 
 .navbar-brand {
@@ -32,20 +33,13 @@ div#myNavbar > ul > li a:hover {
 	color: #B30000;
 }
 
-.imgcar {
-	width: 300px;
-	height: 210px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.iii {
-	width: 300px;
-	height: 210px;
+div#myCarousel {
+	margin: 3% 8% 1%;
 }
 
 #cuerpo {
 	padding: 5px;
+	padding-top: 68px;
 }
 
 #id {
@@ -53,5 +47,25 @@ div#myNavbar > ul > li a:hover {
 }
 
 div.carousel-caption * {
-	margin: 0px 0px;
+	margin: 0px 0px 0px;
+}
+
+.imgcar {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.carousel-inner > .item > img {
+	width: 60%;
+	height: 214px;
+	margin: auto;
+}
+
+.carousel-indicators {
+	top: 180px;
+}
+
+.carousel-caption {
+	top: 112px;
+	bottom: 0px;
 }
