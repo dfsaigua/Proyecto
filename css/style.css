@@ -108,3 +108,44 @@ div > a > h3 + img {
 div > a > h3 {
 	text-align: center;
 }
+
+#inf-event > h3 {
+	margin-top: 10px;
+}
+
+.ocultar {
+	display: none;
+}
+
+.mostrar {
+	display: block;
+}
+
+#inf-event > p::first-letter {
+	font-size: 1.7em;
+	border: 1px solid black;
+	background: red;
+	margin-right: 2px;
+}
+
+.escuelas {
+	display: block;
+	height: 259px;
+	width: 90%;
+	margin: 10px auto;
+}
+
+#cuerpo > div > div > h1 {
+	text-align: center;
+	margin-top: 10px;
+}
+
+#cuerpo > div > div > p {
+	font-size: 20px;
+}
+
+.deportes {
+	margin: 5px 15px;
+	border: solid black;
+	border-radius: 5px;
+}
