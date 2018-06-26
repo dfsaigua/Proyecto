@@ -91,4 +91,20 @@ div.carousel-caption * {
 
 #inf-event > * {
 	font-family: fontawesome;
+	margin-left: 14px;
+}
+
+.input-group {
+	margin: auto 150px auto 150px;
+}
+
+div > a > h3 + img {
+	display: block;
+	width: 250px;
+	height: 200px;
+	margin: auto;
+}
+
+div > a > h3 {
+	text-align: center;
 }
