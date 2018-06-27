@@ -3,6 +3,10 @@
 	src: url(../fonts/FontAwesome);
 }
 
+body {
+	background-color: #E7E6E8;
+}
+
 #logo {
 	width: 145px;
 	height: 100%;
@@ -28,10 +32,12 @@ nav.navbar-inverse {
 }
 
 div#myNavbar > ul > li a {
-	font-size: 1.35em;
+	font-size: 1.3em;
 	color: white;
 	height: 60px;
 	line-height: 28px;
+	padding-left: 7px;
+	padding-right: 7px;
 }
 
 div#myNavbar > ul > li a:hover {
@@ -83,6 +89,7 @@ div.carousel-caption * {
 	height: 248px;
 	overflow: auto;
 	border: black solid;
+	background-color: white;
 }
 
 .contcar {
@@ -140,12 +147,43 @@ div > a > h3 {
 	margin-top: 10px;
 }
 
-#cuerpo > div > div > p {
+#cuerpo > div.deportes > div > div > p {
+	display: inline-block;
 	font-size: 20px;
+}
+
+.des-eq {
+	width: 150px;
+	font-weight: bold;
 }
 
 .deportes {
 	margin: 5px 15px;
 	border: solid black;
 	border-radius: 5px;
+	background-color: white;
+}
+
+.eventos > img {
+	display: block;
+	margin: auto;
+	width: 45%;
+	height: 300px;
+	box-shadow: 8px 8px 10px #999;
+}
+
+.eventos > h3,
+.eventos > p {
+	text-align: center;
+	margin-top: 5px;
+}
+
+.pagina_e > div:first-of-type ~ div {
+	margin-top: 54px;
+}
+
+.eventos > p {
+	text-align: justify;
+	margin-left: 10%;
+	margin-right: 10%;
 }
