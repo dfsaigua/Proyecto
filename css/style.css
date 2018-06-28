@@ -187,3 +187,17 @@ div > a > h3 {
 	margin-left: 10%;
 	margin-right: 10%;
 }
+
+#grafico {
+	width: 960px;
+	height: 500px;
+}
+
+.arc text {
+	font: 10px sans-serif;
+	text-anchor: middle;
+}
+
+.arc path {
+	stroke: #fff;
+}
