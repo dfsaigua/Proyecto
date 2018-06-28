@@ -23,7 +23,6 @@ function buscar(){
 
 }
 
-
 $(document).ready(function()
 {
 	$('#buscar').on('click',buscar)
