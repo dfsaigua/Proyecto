@@ -1,9 +1,62 @@
 * {
+<<<<<<< HEAD
 	font-family: 'Finger Paint';
+=======
+	font-family: 'Antic Slab', serif;
+>>>>>>> salvado
 }
 
 body {
 	background-color: #E7E6E8;
+}
+
+form > h1 {
+	font-size: 50pt;
+	color: #fff;
+	text-align: center;
+	font-weight: normal;
+	margin: 30px 0px;
+}
+
+.ingreso > form {
+	background: #333333;
+	width: 360px;
+	border: 1px solid #4e4d4d;
+	border-radius: 5px;
+	box-shadow: inset 0 0 10px #000;
+	margin: 100px auto;
+}
+
+.form-group label {
+	color: #fff;
+	line-height: 50px;
+	padding-left: 26px;
+	font-size: 23px;
+}
+
+form input {
+	width: 220px;
+	height: 35px;
+	padding: 0px 10px;
+	margin: 10px 30px;
+	color: #6d6d6d;
+	text-align: center;
+}
+
+form > #ad_bt {
+	display: flex;
+	justify-content: center;
+	margin: 15px 0px;
+}
+
+form button {
+	width: 50%;
+	margin-bottom: 5px;
+}
+
+.ingreso input[type="email"]:focus:invalid {
+	border: 1px solid red;
+	box-shadow: 0 0 5px red;
 }
 
 #logo {
@@ -119,6 +172,7 @@ div > a > h3 {
 }
 
 #inf-event > h3 {
+	text-shadow: 1px 2px #999;
 	margin-top: 10px;
 }
 
@@ -166,6 +220,11 @@ div > a > h3 {
 	background-color: white;
 }
 
+.eventos {
+	border: solid black;
+	border-radius: 10px;
+}
+
 .eventos > img {
 	display: block;
 	margin: auto;
@@ -191,8 +250,13 @@ div > a > h3 {
 }
 
 #grafico {
+<<<<<<< HEAD
 	width: 960px;
 	height: 500px;
+=======
+	width: 750px;
+	height: 450px;
+>>>>>>> salvado
 }
 
 .arc text {
