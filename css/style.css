@@ -1,6 +1,5 @@
-@font-face {
-	font-family: fontawesome;
-	src: url(../fonts/FontAwesome);
+* {
+	font-family: 'Finger Paint';
 }
 
 body {
@@ -68,7 +67,7 @@ div.carousel-caption * {
 
 .carousel-inner > .item > img {
 	width: 60%;
-	height: 214px;
+	height: 250px;
 	margin: auto;
 }
 
@@ -86,7 +85,7 @@ div.carousel-caption * {
 }
 
 #inf-event {
-	height: 248px;
+	height: 270px;
 	overflow: auto;
 	border: black solid;
 	background-color: white;
@@ -97,7 +96,6 @@ div.carousel-caption * {
 }
 
 #inf-event > * {
-	font-family: fontawesome;
 	margin-left: 14px;
 }
 
@@ -114,6 +112,10 @@ div > a > h3 + img {
 
 div > a > h3 {
 	text-align: center;
+}
+
+.gal {
+	margin: 10px 0px 0px 70px;
 }
 
 #inf-event > h3 {
