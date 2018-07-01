@@ -5,13 +5,14 @@
         <meta charset="utf-8"/>
         <meta name= "viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Antic+Slab" rel="stylesheet"/>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Finger Paint" rel='stylesheet'/>
-        <script src="js/aplica.js"></script>
+        <script src="https://d3js.org/d3.v3.min.js" crossorigin="anonymous"></script>
+        <script src="js/grafica.js"></script>
         <link rel="stylesheet" type="text/css" href="css/gallery.css"/>
         <link href="css/style.css" rel="stylesheet"/>
-        <link href="https://fonts.googleapis.com/css?family=Antic+Slab" rel="stylesheet"/>
     </head>
     <body>
         <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -41,9 +42,6 @@
                             <a href="eventos.html">Eventos</a>
                         </li>
                         <li>
-                            <a href="noticias.html">Noticias</a>
-                        </li>
-                        <li>
                             <a href="quienes_somos.html">¿Quiénes somos?</a>
                         </li>
                     </ul>
@@ -55,7 +53,7 @@
                 <h1>Acerca de Zona Sports</h1>
             </div>
             <div class="row">
-                <div class = "col-lg-8  col-md-8  col-sm-12  col-12">
+                <div class = "col-lg-8  col-md-8  col-sm-12  col-12" id="tex">
                     <div class="parrafo">
                         <h4>DESCRIPCIÓN</h4>
                         <p>Las personas que son amantes de practicar distintos deportes no cuentan con información necesaria de clubes y eventos que ocurren en la ciudad, ni lugares y horarios de donde puedan practicarlos, es por tal motivo que se tiene pensado en realizar una página web en donde se muestre todo este contenido. Para generar confianza en la persona interesada, se mostrarán datos relevantes del entrenador encargado en cada deporte como, por ejemplo: nombre, títulos y experiencia con aquel deporte. Si el deportista desea saber el lugar exacto, pero no conoce la ciudad del todo, entonces la página contará con un mapa para que llegué con facilidad al sitio. Será más bien como un tipo de red social en donde además las personas podrán dar sus opiniones mediante comentarios y poder observar mediante un cronograma y calendario todas las actividades deportivas en la ciudad.</p>
@@ -85,6 +83,12 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div class ="row">
+            <button class ="btn btn-primary gal">Validaciones</button>
+        </div>
+        <div>
+            <svg id="grafico"></svg>
         </div>
         <footer></footer>
     </body>

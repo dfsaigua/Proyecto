@@ -247,11 +247,8 @@ div > a > h3 {
 }
 
 #grafico {
-	<<<<<<< HEAD width: 960px;
+	width: 960px;
 	height: 500px;
-	=======width: 750px;
-	height: 450px;
-	> > > > > > > salvado
 }
 
 .arc text {
@@ -317,20 +314,26 @@ div.parrafo {
 	border: 1px solid black;
 	width: 100%;
 	padding: 10px;
-	margin: 15px;
-}
-
-.cont {
-	height: 700px;
+	margin: 10px 0px 15px;
 }
 
 .imagendes {
-	margin: auto;
+	margin: 35px 10px;
 }
 
 .imagendes > img {
 	margin: auto;
 	width: 90%;
 	height: 175px;
-	min-width: 400px;
+	min-width: 240px;
+}
+
+#tex > div * {
+	padding: 0px 10px 0px;
+}
+
+@media (max-width:991px) {
+	.cont {
+		display: none;
+	}
 }
