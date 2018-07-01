@@ -262,3 +262,75 @@ div > a > h3 {
 .arc path {
 	stroke: #fff;
 }
+
+div.desc {
+	width: 50%;
+	margin-bottom: 20px;
+}
+
+.nombres {
+	border: 2px solid black;
+	background-color: #DFF3E8;
+	width: 80%;
+	height: 600px;
+	padding: 0px 5px;
+	margin: auto;
+}
+
+.nombres > h3,
+#Titulo {
+	text-align: center;
+	font-weight: bold;
+}
+
+.nombres > img {
+	display: block;
+	margin: auto;
+	width: 20%;
+}
+
+span.otroestilo {
+	font-weight: bold;
+	font-size: 1.10em;
+}
+
+@media (max-width:777px) {
+	div.desc {
+		width: 100%;
+	}
+	.nombres > img {
+		min-width: 111px;
+	}
+}
+
+.tema {
+	padding: 5px;
+	margin: 5px;
+}
+
+.tema > h1 {
+	font-size: 3.5em;
+	text-align: center;
+}
+
+div.parrafo {
+	border: 1px solid black;
+	width: 100%;
+	padding: 10px;
+	margin: 15px;
+}
+
+.cont {
+	height: 700px;
+}
+
+.imagendes {
+	margin: auto;
+}
+
+.imagendes > img {
+	margin: auto;
+	width: 90%;
+	height: 175px;
+	min-width: 400px;
+}
