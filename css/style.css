@@ -1,9 +1,6 @@
 * {
-<<<<<<< HEAD
-	font-family: 'Finger Paint';
-=======
 	font-family: 'Antic Slab', serif;
->>>>>>> salvado
+	> > > > > > > salvado
 }
 
 body {
@@ -250,13 +247,11 @@ div > a > h3 {
 }
 
 #grafico {
-<<<<<<< HEAD
-	width: 960px;
+	<<<<<<< HEAD width: 960px;
 	height: 500px;
-=======
-	width: 750px;
+	=======width: 750px;
 	height: 450px;
->>>>>>> salvado
+	> > > > > > > salvado
 }
 
 .arc text {
