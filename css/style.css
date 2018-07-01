@@ -1,6 +1,5 @@
 * {
 	font-family: 'Antic Slab', serif;
-	> > > > > > > salvado
 }
 
 body {
@@ -165,7 +164,7 @@ div > a > h3 {
 }
 
 .gal {
-	margin: 10px 0px 0px 70px;
+	margin: 1px 0px 0px 20px;
 }
 
 #inf-event > h3 {
@@ -445,4 +444,9 @@ div.parrafo > h4 {
 
 #graf > .row > .gr2 {
 	width: 66.6666%;
+}
+
+.bot {
+	font-size: 1.3em;
+	margin: 20px 0px 0px 40px;
 }
