@@ -12,7 +12,7 @@ $(document).ready(function()
 	var color = d3.scale.ordinal().range(["#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd", "#17becf", "#bcbd22"]);
 
 	var arc = d3.svg.arc()
-    .outerRadius(radius - 10)
+    .outerRadius(radius - 20)
     .innerRadius(0);
 	var pie = d3.layout.pie()
     .sort(null)
